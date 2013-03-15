@@ -1441,3 +1441,57 @@ Stack trace:
 REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
 HTTP_REFERER=http://localhost/family_budget/site/index
 ---
+2013/03/15 19:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/css/daterangepicker.css".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/css/daterangepicker.css
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/15 19:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/daterangepicker.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/daterangepicker.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/15 19:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date-ru-RU.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date-ru-RU.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/15 19:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/15 19:41:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/15 19:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
