@@ -1,10 +1,22 @@
 <?php
-
 /* @var $form TbActiveForm */
 $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
     'type' => TbActiveForm::TYPE_HORIZONTAL,
         ]);
-$this->widget('ext.widgets.Daterangepicker.Daterangepicker');
+?>
+<div class="row" style="left: 50px">
+    <?php
+    echo $form->label($record, 'date');
+    $this->widget('ext.widgets.EDateRangePicker.EDateRangePicker', [
+        'model' => $record,
+        'attribute' => 'date',
+        'options' => [
+            'arrows' => true
+        ],
+    ]);
+    ?>
+</div>
+<?php
 echo $form->textAreaRow($record, 'name');
 echo $form->textFieldRow($record, 'cost');
 $this->widget('bootstrap.widgets.TbButton', [

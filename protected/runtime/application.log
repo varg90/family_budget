@@ -1495,3 +1495,350 @@ Stack trace:
 REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
 HTTP_REFERER=http://localhost/family_budget/site/index
 ---
+2013/03/16 13:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date-ru-RU.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date-ru-RU.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/daterangepicker.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/daterangepicker.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/css/daterangepicker.css".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/css/daterangepicker.css
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/16 13:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/css/daterangepicker.css".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/css/daterangepicker.css
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/daterangepicker.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/daterangepicker.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date-ru-RU.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date-ru-RU.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/css/daterangepicker.css".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/css/daterangepicker.css
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/daterangepicker.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/daterangepicker.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/a8e880d1/js/date/date-ru-RU.js".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/a8e880d1...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/a8e880d1/js/date/date-ru-RU.js
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:24:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:28:42 [error] [exception.CException] exception 'CException' with message 'CJuiDatePicker must specify "model" and "attribute" or "name" property values.' in C:\Program Files\yii-1.1.13\framework\zii\widgets\jui\CJuiInputWidget.php:52
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\zii\widgets\jui\CJuiDatePicker.php(70): CJuiInputWidget->resolveNameID()
+#1 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(173): CJuiDatePicker->run()
+#2 C:\xampp\htdocs\family_budget\protected\views\site\add_record.php(7): CBaseController->widget('zii.widgets.jui...')
+#3 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\Program Files\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\Program Files\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('add_record', Array, true)
+#7 C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php(52): CController->render('add_record', Array)
+#8 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddRecord()
+#9 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addRecord')
+#13 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addRecord')
+#14 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/family_budget/site/addRecord
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:30:50 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.label" is not defined.' in C:\Program Files\yii-1.1.13\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWidgetFactory.php(161): CComponent->__set('label', '????????')
+#1 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.jui...', Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\family_budget\protected\views\site\add_record.php(11): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\Program Files\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\Program Files\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('add_record', Array, true)
+#8 C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php(52): CController->render('add_record', Array)
+#9 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddRecord()
+#10 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addRecord')
+#14 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addRecord')
+#15 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/family_budget/site/addRecord
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:32:52 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.label" is not defined.' in C:\Program Files\yii-1.1.13\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWidgetFactory.php(161): CComponent->__set('label', '????????')
+#1 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.jui...', Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\family_budget\protected\views\site\add_record.php(11): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\Program Files\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\Program Files\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('add_record', Array, true)
+#8 C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php(52): CController->render('add_record', Array)
+#9 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddRecord()
+#10 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addRecord')
+#14 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addRecord')
+#15 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/family_budget/site/addRecord
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:32:59 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.label" is not defined.' in C:\Program Files\yii-1.1.13\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWidgetFactory.php(161): CComponent->__set('label', '????????')
+#1 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.jui...', Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\family_budget\protected\views\site\add_record.php(11): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\Program Files\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\Program Files\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('add_record', Array, true)
+#8 C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php(52): CController->render('add_record', Array)
+#9 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddRecord()
+#10 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addRecord')
+#14 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addRecord')
+#15 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/family_budget/site/addRecord
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:43:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:47:05 [error] [exception.CException] exception 'CException' with message 'EDateRangePicker must specify "model" and "attribute" or "name" property values.' in C:\Program Files\yii-1.1.13\framework\zii\widgets\jui\CJuiInputWidget.php:52
+Stack trace:
+#0 C:\xampp\htdocs\family_budget\protected\extensions\widgets\EDateRangePicker\EDateRangePicker.php(61): CJuiInputWidget->resolveNameID()
+#1 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(173): EDateRangePicker->run()
+#2 C:\xampp\htdocs\family_budget\protected\views\site\add_record.php(14): CBaseController->widget('ext.widgets.EDa...', Array)
+#3 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\Program Files\yii-1.1.13\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\Program Files\yii-1.1.13\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\Program Files\yii-1.1.13\framework\web\CController.php(782): CController->renderPartial('add_record', Array, true)
+#7 C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php(52): CController->render('add_record', Array)
+#8 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddRecord()
+#9 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addRecord')
+#13 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addRecord')
+#14 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/family_budget/site/addRecord
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/16 13:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
+2013/03/16 13:49:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addRecord
+---
