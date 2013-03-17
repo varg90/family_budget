@@ -6,9 +6,9 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
 ?>
 <div class="row" style="left: 50px">
     <?php
-    echo $form->label($record, 'date');
+    echo $form->label($purchase, 'date');
     $this->widget('ext.widgets.EDateRangePicker.EDateRangePicker', [
-        'model' => $record,
+        'model' => $purchase,
         'attribute' => 'date',
         'options' => [
             'arrows' => true
@@ -17,8 +17,8 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
     ?>
 </div>
 <?php
-echo $form->textAreaRow($record, 'name');
-echo $form->textFieldRow($record, 'cost');
+echo $form->textAreaRow($purchase, 'name');
+echo $form->textFieldRow($purchase, 'cost');
 $this->widget('bootstrap.widgets.TbButton', [
     'buttonType' => TbButton::BUTTON_SUBMIT,
     'type' => TbButton::TYPE_PRIMARY,

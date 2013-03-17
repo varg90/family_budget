@@ -21,25 +21,19 @@ class SiteController extends Controller {
     }
 
     public function actionIndex() {
-        $records = Record::model()->findAll();
-
-//        foreach($records as $record) {
-//            $types[] = gettype($record);
-//        }
-//        throw new Exception(CVarDumper::dumpAsString($types));
-
+        $purchases = Purchase::model()->findAll();
         $this->render('index', [
-            'recordsDataProvider' => new CArrayDataProvider($records),
+            'recordsDataProvider' => new CArrayDataProvider($purchases),
         ]);
     }
 
     public function actionAddRecord() {
-        $record = new Record;
+        $purchase = new Purchase;
         if (!empty($_POST['Record'])) {
-            $record->attributes = $_POST['Record'];
+            $purchase->attributes = $_POST['Record'];
             try {
-                if (!$record->save()) {
-                    throw new Exception(CVarDumper::dump($record->getErrors()));
+                if (!$purchase->save()) {
+                    throw new Exception(CVarDumper::dump($purchase->getErrors()));
                 };
                 Yii::app()->user->setFlash('success', 'Новая запись успешно добавлена!');
                 $this->redirect($this->createUrl('site/index'));
@@ -48,7 +42,7 @@ class SiteController extends Controller {
             }
         }
         $this->render('add_record', [
-            'record' => $record,
+            'purchase' => $purchase,
         ]);
     }
 

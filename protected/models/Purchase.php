@@ -8,15 +8,16 @@
  * @property string $name
  * @property double $cost
  * @property date $date
+ * @property string $category
  */
-class Record extends CActiveRecord
+class Purchase extends CActiveRecord
 {
     public $beginDate;
     public $endDate;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Record the static model class
+	 * @return Purchase the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -28,7 +29,7 @@ class Record extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'record';
+		return 'purchase';
 	}
 
 	/**
@@ -39,7 +40,7 @@ class Record extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cost, date', 'required'),
+			array('cost, date, catergoty', 'required'),
 			array('cost', 'numerical'),
 			array('name', 'length', 'max'=>255),
 			// The following rule is used by search().
@@ -69,6 +70,7 @@ class Record extends CActiveRecord
 			'name' => 'Название',
 			'cost' => 'Стоимость',
 			'date' => 'Дата',
+			'category' => 'Категория',
 		);
 	}
 
@@ -87,6 +89,7 @@ class Record extends CActiveRecord
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('cost',$this->cost);
 		$criteria->compare('date',$this->date);
+		$criteria->compare('category',$this->category);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
