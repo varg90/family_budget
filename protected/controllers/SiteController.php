@@ -29,7 +29,7 @@ class SiteController extends Controller {
 
     public function actionAddPurchase() {
         $purchase = new Purchase;
-        if ($_POST['Purchase']) {
+        if (!empty($_POST['Purchase'])) {
             $purchase->attributes = $_POST['Purchase'];
             try {
                 if (!$purchase->save()) {
@@ -57,6 +57,25 @@ class SiteController extends Controller {
             Yii::app()->user->setFlash('error', 'Произошла ошибка при удалении' . $e->getMessage());
         }
         $this->redirect($this->createUrl('site/index'));
+    }
+
+    public function getCategoriesArray() {
+        return [
+            'product' => 'Продукты',
+            'petrol' => 'Бензин',
+            'med' => 'Медицина',
+            'phone' => 'Телефон',
+            'bus' => 'Автобус',
+        ];
+    }
+
+    public function getSumCost() {
+        $purchases = Purchase::model()->findAll();
+        $sumCost = 0;
+        foreach ($purchases as $purchase) {
+            $sumCost += $purchase->cost;
+        }
+        return $sumCost;
     }
 
 }

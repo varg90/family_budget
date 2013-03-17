@@ -91,14 +91,4 @@ class Purchase extends CActiveRecord {
         ));
     }
 
-    public static function getCategoriesArray() {
-        return [
-             'product' => 'Продукты',
-             'petrol' => 'Бензин',
-             'med' => 'Медицина',
-             'phone' => 'Телефон',
-             'bus' => 'Автобус',
-        ];
-    }
-
 }

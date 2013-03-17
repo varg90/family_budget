@@ -4,8 +4,8 @@
 
 $this->pageTitle = Yii::app()->name;
 ?>
+<h1>Общая стоимость: <?php echo $this->getSumCost(); ?></h1>
 <?php
-
 $this->widget('bootstrap.widgets.TbGridView', [
     'dataProvider' => $recordsDataProvider,
     'columns' => [
@@ -30,7 +30,7 @@ $this->widget('bootstrap.widgets.TbGridView', [
         [
             'name' => 'Категория',
             'value' => function($data) {
-                $categoriesArray = Purchase::getCategoriesArray();
+                $categoriesArray = $this->getCategoriesArray();
                 $category = $data->category;
                 return $categoriesArray["$category"];
             }
