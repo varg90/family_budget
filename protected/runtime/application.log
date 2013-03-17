@@ -3223,3 +3223,120 @@ Stack trace:
 REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
 HTTP_REFERER=http://localhost/family_budget/site/index
 ---
+2013/03/17 19:06:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 19:08:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 19:09:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 19:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 19:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 19:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
