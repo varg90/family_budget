@@ -23,7 +23,7 @@ class SiteController extends Controller {
     public function actionIndex() {
         $purchases = Purchase::model()->findAll();
         $this->render('index', [
-            'recordsDataProvider' => new CArrayDataProvider($purchases),
+            'purchases' => $purchases,
         ]);
     }
 
@@ -40,10 +40,11 @@ class SiteController extends Controller {
                 Yii::app()->user->setFlash('error', 'Произошла ошибка при сохранении' . $e->getMessage());
             }
             $this->redirect($this->createUrl('site/index'));
+        } else {
+            $this->render('add_record', [
+                'purchase' => $purchase,
+            ]);
         }
-        $this->render('add_record', [
-            'purchase' => $purchase,
-        ]);
     }
 
     public function actionDeletePurchase($id) {
@@ -69,8 +70,7 @@ class SiteController extends Controller {
         ];
     }
 
-    public function getSumCost() {
-        $purchases = Purchase::model()->findAll();
+    public function getSumCostByPurchases($purchases) {
         $sumCost = 0;
         foreach ($purchases as $purchase) {
             $sumCost += $purchase->cost;

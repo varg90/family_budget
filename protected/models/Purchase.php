@@ -39,6 +39,7 @@ class Purchase extends CActiveRecord {
         // will receive user inputs.
         return array(
             array('cost, category', 'required'),
+            ['date', 'type', 'type' => 'date', 'dateFormat' => 'yyyy-MM-dd'],
             array('cost', 'numerical'),
             array('name', 'length', 'max' => 255),
             // The following rule is used by search().

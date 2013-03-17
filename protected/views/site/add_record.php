@@ -4,16 +4,17 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
     'type' => TbActiveForm::TYPE_HORIZONTAL,
         ]);
 ?>
-<div class="row" style="left: 50px">
+<div style="padding-left: 180px; ">
     <?php
     echo $form->label($purchase, 'date');
-    $this->widget('ext.widgets.EDateRangePicker.EDateRangePicker', [
+    $this->widget('zii.widgets.jui.CJuiDatePicker', [
         'model' => $purchase,
         'attribute' => 'date',
         'options' => [
-            'arrows' => true
+            'dateFormat'=>'yy-mm-dd',
         ],
     ]);
+    echo '<br><br>';
     ?>
 </div>
 <?php

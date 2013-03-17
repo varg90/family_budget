@@ -1,13 +1,13 @@
 <?php
-
 /* @var $this SiteController */
 
 $this->pageTitle = Yii::app()->name;
 ?>
-<h1>Общая стоимость: <?php echo $this->getSumCost(); ?></h1>
+<h1>Общая стоимость: <?php echo $this->getSumCostByPurchases($purchases); ?></h1>
 <?php
 $this->widget('bootstrap.widgets.TbGridView', [
-    'dataProvider' => $recordsDataProvider,
+    'dataProvider' => new CArrayDataProvider($purchases),
+    'ajaxUpdate' => true,
     'columns' => [
         [
             'name' => 'Дата',
@@ -45,7 +45,7 @@ $this->widget('bootstrap.widgets.TbGridView', [
                         'id' => $data->id
                     ]),
                     'htmlOptions' => [
-                        'onClick'=>'return confirm("Вы уверены?")',
+                        'onClick' => 'return confirm("Вы уверены?")',
                     ],
                 ]);
             },

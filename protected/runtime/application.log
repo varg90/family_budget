@@ -2240,3 +2240,986 @@ Stack trace:
 REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
 HTTP_REFERER=http://localhost/family_budget/site/index
 ---
+2013/03/17 10:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 10:54:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:21:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:23:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:25:51 [error] [php] Undefined variable: purchases (C:\xampp\htdocs\family_budget\protected\views\site\add_record.php:10)
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php(46): SiteController->render()
+#3 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#4 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\family_budget\index.php(13): CWebApplication->run()
+REQUEST_URI=/family_budget/site/addPurchase
+in C:\xampp\htdocs\family_budget\protected\views\site\add_record.php (10)
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (46)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:26:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:27:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:30:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:30:53 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:30:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:31:54 [error] [exception.Exception] exception 'Exception' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:33
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:32:02 [error] [exception.Exception] exception 'Exception' with message 'array
+(
+    'date' => '03/11/2013'
+    'name' => '123'
+    'cost' => '123'
+    'category' => 'product'
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:33
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:34:28 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:34:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:34:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:35:05 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:35:17 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:35:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:35:38 [error] [exception.Exception] exception 'Exception' with message 'array
+(
+    'date' => '2013-03-04'
+    'name' => 'asd'
+    'cost' => '115'
+    'category' => 'product'
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:33
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:36:02 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:37:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:37:42 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:37:42 [error] [exception.Exception] exception 'Exception' with message 'array
+(
+    'date' => '2013-03-05'
+    'name' => 'asda'
+    'cost' => '2134'
+    'category' => 'bus'
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:34
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:38:17 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:38:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:39:14 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:39:50 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 11:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:47:49 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 11:48:10 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:51:05 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 11:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/17 12:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/17 12:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/17 14:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/17 15:38:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/17 16:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/
+---
+2013/03/17 17:37:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'id'. The SQL statement executed was: ALTER TABLE `purchase` ADD `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY.
+2013/03/17 17:43:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 17:43:10 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 17:43:20 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 17:43:23 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 17:43:47 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 17:43:47 [error] [exception.Exception] exception 'Exception' with message 'Purchase#1
+(
+    [beginDate] => null
+    [endDate] => null
+    [CActiveRecord:_md] => CActiveRecordMetaData#2
+    (
+        [tableSchema] => CMysqlTableSchema#3
+        (
+            [schemaName] => null
+            [name] => 'purchase'
+            [rawName] => '`purchase`'
+            [primaryKey] => 'id'
+            [sequenceName] => ''
+            [foreignKeys] => array()
+            [columns] => array
+            (
+                'id' => CMysqlColumnSchema#4
+                (
+                    [name] => 'id'
+                    [rawName] => '`id`'
+                    [allowNull] => false
+                    [dbType] => 'int(11)'
+                    [type] => 'integer'
+                    [defaultValue] => null
+                    [size] => 11
+                    [precision] => 11
+                    [scale] => null
+                    [isPrimaryKey] => true
+                    [isForeignKey] => false
+                    [autoIncrement] => true
+                    [comment] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+                'name' => CMysqlColumnSchema#5
+                (
+                    [name] => 'name'
+                    [rawName] => '`name`'
+                    [allowNull] => true
+                    [dbType] => 'varchar(255)'
+                    [type] => 'string'
+                    [defaultValue] => null
+                    [size] => 255
+                    [precision] => 255
+                    [scale] => null
+                    [isPrimaryKey] => false
+                    [isForeignKey] => false
+                    [autoIncrement] => false
+                    [comment] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+                'cost' => CMysqlColumnSchema#6
+                (
+                    [name] => 'cost'
+                    [rawName] => '`cost`'
+                    [allowNull] => false
+                    [dbType] => 'double'
+                    [type] => 'double'
+                    [defaultValue] => null
+                    [size] => null
+                    [precision] => null
+                    [scale] => null
+                    [isPrimaryKey] => false
+                    [isForeignKey] => false
+                    [autoIncrement] => false
+                    [comment] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+                'date' => CMysqlColumnSchema#7
+                (
+                    [name] => 'date'
+                    [rawName] => '`date`'
+                    [allowNull] => false
+                    [dbType] => 'date'
+                    [type] => 'string'
+                    [defaultValue] => null
+                    [size] => null
+                    [precision] => null
+                    [scale] => null
+                    [isPrimaryKey] => false
+                    [isForeignKey] => false
+                    [autoIncrement] => false
+                    [comment] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+                'category' => CMysqlColumnSchema#8
+                (
+                    [name] => 'category'
+                    [rawName] => '`category`'
+                    [allowNull] => true
+                    [dbType] => 'varchar(255)'
+                    [type] => 'string'
+                    [defaultValue] => null
+                    [size] => 255
+                    [precision] => 255
+                    [scale] => null
+                    [isPrimaryKey] => false
+                    [isForeignKey] => false
+                    [autoIncrement] => false
+                    [comment] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+            )
+            [CComponent:_e] => null
+            [CComponent:_m] => null
+        )
+        [columns] => array
+        (
+            'id' => CMysqlColumnSchema#4(...)
+            'name' => CMysqlColumnSchema#5(...)
+            'cost' => CMysqlColumnSchema#6(...)
+            'date' => CMysqlColumnSchema#7(...)
+            'category' => CMysqlColumnSchema#8(...)
+        )
+        [relations] => array()
+        [attributeDefaults] => array()
+        [CActiveRecordMetaData:_model] => Purchase#9
+        (
+            [beginDate] => null
+            [endDate] => null
+            [CActiveRecord:_md] => CActiveRecordMetaData#2(...)
+            [CActiveRecord:_new] => false
+            [CActiveRecord:_attributes] => array()
+            [CActiveRecord:_related] => array()
+            [CActiveRecord:_c] => null
+            [CActiveRecord:_pk] => null
+            [CActiveRecord:_alias] => 't'
+            [CModel:_errors] => array()
+            [CModel:_validators] => null
+            [CModel:_scenario] => ''
+            [CComponent:_e] => null
+            [CComponent:_m] => null
+        )
+    )
+    [CActiveRecord:_new] => true
+    [CActiveRecord:_attributes] => array
+    (
+        'name' => 'фыв'
+        'cost' => '1234'
+        'category' => 'product'
+    )
+    [CActiveRecord:_related] => array()
+    [CActiveRecord:_c] => null
+    [CActiveRecord:_pk] => null
+    [CActiveRecord:_alias] => 't'
+    [CModel:_errors] => array()
+    [CModel:_validators] => CList#10
+    (
+        [CList:_d] => array
+        (
+            0 => CRequiredValidator#11
+            (
+                [requiredValue] => null
+                [strict] => false
+                [attributes] => array
+                (
+                    0 => 'cost'
+                    1 => 'category'
+                )
+                [message] => null
+                [skipOnError] => false
+                [on] => array()
+                [except] => array()
+                [safe] => true
+                [enableClientValidation] => true
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+            1 => CNumberValidator#12
+            (
+                [integerOnly] => false
+                [allowEmpty] => true
+                [max] => null
+                [min] => null
+                [tooBig] => null
+                [tooSmall] => null
+                [integerPattern] => '/^\\s*[+-]?\\d+\\s*$/'
+                [numberPattern] => '/^\\s*[-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?\\s*$/'
+                [attributes] => array
+                (
+                    0 => 'cost'
+                )
+                [message] => null
+                [skipOnError] => false
+                [on] => array()
+                [except] => array()
+                [safe] => true
+                [enableClientValidation] => true
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+            2 => CStringValidator#13
+            (
+                [max] => 255
+                [min] => null
+                [is] => null
+                [tooShort] => null
+                [tooLong] => null
+                [allowEmpty] => true
+                [encoding] => null
+                [attributes] => array
+                (
+                    0 => 'name'
+                )
+                [message] => null
+                [skipOnError] => false
+                [on] => array()
+                [except] => array()
+                [safe] => true
+                [enableClientValidation] => true
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+            3 => CSafeValidator#14
+            (
+                [attributes] => array
+                (
+                    0 => 'id'
+                    1 => 'name'
+                    2 => 'cost'
+                    3 => 'date'
+                )
+                [message] => null
+                [skipOnError] => false
+                [on] => array
+                (
+                    'search' => 'search'
+                )
+                [except] => array()
+                [safe] => true
+                [enableClientValidation] => true
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+        )
+        [CList:_c] => 4
+        [CList:_r] => false
+        [CComponent:_e] => null
+        [CComponent:_m] => null
+    )
+    [CModel:_scenario] => 'insert'
+    [CComponent:_e] => null
+    [CComponent:_m] => null
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:34
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 17:51:43 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 17:51:43 [error] [exception.Exception] exception 'Exception' with message 'array
+(
+    'name' => 'фыв'
+    'cost' => '1234'
+    'category' => 'product'
+    'id' => null
+    'date' => null
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:34
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 17:51:51 [warning] [application] Failed to set unsafe attribute "date" of "Purchase".
+in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\family_budget\index.php (13)
+2013/03/17 17:51:51 [error] [exception.Exception] exception 'Exception' with message 'array
+(
+    'name' => 'фыв'
+    'cost' => '1234'
+    'category' => 'product'
+    'id' => null
+    'date' => null
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:34
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 17:56:22 [error] [exception.Exception] exception 'Exception' with message 'array
+(
+    'date' => '2013-03-07'
+    'name' => 'фыв'
+    'cost' => '1234'
+    'category' => 'product'
+    'id' => null
+)' in C:\xampp\htdocs\family_budget\protected\controllers\SiteController.php:34
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\actions\CInlineAction.php(49): SiteController->actionAddPurchase()
+#1 C:\Program Files\yii-1.1.13\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\Program Files\yii-1.1.13\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\Program Files\yii-1.1.13\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(282): CController->run('addPurchase')
+#5 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('site/addPurchas...')
+#6 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/family_budget/site/addPurchase
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 17:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 17:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 17:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:06:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:39:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:39:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
+2013/03/17 18:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/addPurchase
+---
+2013/03/17 18:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/lib/bootstrap/less/mixins.less".' in C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files\yii-1.1.13\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 C:\Program Files\yii-1.1.13\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\family_budget\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/family_budget/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://localhost/family_budget/site/index
+---
