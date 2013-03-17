@@ -29,8 +29,8 @@ class SiteController extends Controller {
 
     public function actionAddRecord() {
         $purchase = new Purchase;
-        if (!empty($_POST['Record'])) {
-            $purchase->attributes = $_POST['Record'];
+        if ($_POST['Purchase']) {
+            $purchase->attributes = $_POST['Purchase'];
             try {
                 if (!$purchase->save()) {
                     throw new Exception(CVarDumper::dump($purchase->getErrors()));
