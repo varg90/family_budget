@@ -35,19 +35,21 @@ $this->widget('bootstrap.widgets.TbGridView', [
                 return $categoriesArray["$category"];
             }
         ],
-//            [
-//                'name' => 'Удалить',
-//                'value' => function($data) {
-//                    $this->widget('bootstrap.widgets.TbButton', [
-//                        'url' => $this->createUrl('/site/deleteRecord', [
-//                            'id' => $data->id
-//                        ]),
-//                        'htmlOptions' => [
-//                            'class' => 'icon-remove',
-//                        ],
-//                    ]);
-//                },
-//            ],
+        [
+            'name' => 'Удалить',
+            'value' => function($data) {
+                $this->widget('bootstrap.widgets.TbButton', [
+                    'label' => 'Удалить',
+                    'type' => TbButton::TYPE_DANGER,
+                    'url' => $this->createUrl('/site/deletePurchase', [
+                        'id' => $data->id
+                    ]),
+                    'htmlOptions' => [
+                        'onClick'=>'return confirm("Вы уверены?")',
+                    ],
+                ]);
+            },
+        ],
     ]
 ]);
 ?>

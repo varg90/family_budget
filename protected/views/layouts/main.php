@@ -38,7 +38,7 @@
                         ],
                         [
                             'label' => 'Добавить запись',
-                            'url' => $this->createUrl('/site/addRecord')
+                            'url' => $this->createUrl('/site/addPurchase')
                         ],
                     ],
                 ]);
