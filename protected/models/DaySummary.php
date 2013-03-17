@@ -1,23 +1,19 @@
 <?php
 
 /**
- * This is the model class for table "record".
+ * This is the model class for table "day_summary".
  *
- * The followings are the available columns in table 'record':
+ * The followings are the available columns in table 'day_summary':
  * @property integer $id
- * @property string $name
- * @property double $cost
- * @property integer $sum_id
+ * @property string $date
+ * @property double $sum_spend
  */
-class Purchase extends CActiveRecord {
-
-    public $beginDate;
-    public $endDate;
+class DaySummary extends CActiveRecord {
 
     /**
      * Returns the static model of the specified AR class.
      * @param string $className active record class name.
-     * @return Purchase the static model class
+     * @return DaySummary the static model class
      */
     public static function model($className = __CLASS__) {
         return parent::model($className);
@@ -27,7 +23,7 @@ class Purchase extends CActiveRecord {
      * @return string the associated database table name
      */
     public function tableName() {
-        return 'purchase';
+        return 'day_summary';
     }
 
     /**
@@ -37,12 +33,12 @@ class Purchase extends CActiveRecord {
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('cost, name', 'required'),
-            array('cost', 'numerical'),
-            array('name', 'length', 'max' => 255),
+            ['date', 'type', 'type' => 'date', 'dateFormat' => 'yyyy-MM-dd'],
+            array('date, sum_spend', 'required'),
+            array('sum_spend', 'numerical'),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
-            array('id, name, cost, date', 'safe', 'on' => 'search'),
+            array('id, date, sum_spend', 'safe', 'on' => 'search'),
         );
     }
 
@@ -53,7 +49,7 @@ class Purchase extends CActiveRecord {
         // NOTE: you may need to adjust the relation name and the related
         // class name for the relations automatically generated below.
         return array(
-            'sum' => array(self::BELONGS_TO, 'DaySummary', 'sum_id'),
+            'purchases' => array(self::HAS_MANY, 'Purchase', 'sum_id'),
         );
     }
 
@@ -63,10 +59,8 @@ class Purchase extends CActiveRecord {
     public function attributeLabels() {
         return array(
             'id' => 'ID',
-            'name' => 'Название',
-            'cost' => 'Стоимость',
-            'date' => 'Дата',
-            'category' => 'Категория',
+            'date' => 'Date',
+            'sum_spend' => 'Sum Spend',
         );
     }
 
@@ -81,10 +75,8 @@ class Purchase extends CActiveRecord {
         $criteria = new CDbCriteria;
 
         $criteria->compare('id', $this->id);
-        $criteria->compare('name', $this->name, true);
-        $criteria->compare('cost', $this->cost);
-        $criteria->compare('date', $this->date);
-        $criteria->compare('category', $this->category);
+        $criteria->compare('date', $this->date, true);
+        $criteria->compare('sum_spend', $this->sum_spend);
 
         return new CActiveDataProvider($this, array(
             'criteria' => $criteria,

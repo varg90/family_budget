@@ -21,9 +21,9 @@ class SiteController extends Controller {
     }
 
     public function actionIndex() {
-        $purchases = Purchase::model()->findAll();
+        $daysSummaries = DaySummary::model()->findAll();
         $this->render('index', [
-            'purchases' => $purchases,
+            'daysSummaries' => $daysSummaries,
         ]);
     }
 
