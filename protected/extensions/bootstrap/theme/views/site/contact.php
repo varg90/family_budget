@@ -1,5 +1,5 @@
 <?php
-/* @var $this SiteController */
+/* @var $this PurchaseController */
 /* @var $model ContactForm */
 /* @var $form TbActiveForm */
 
