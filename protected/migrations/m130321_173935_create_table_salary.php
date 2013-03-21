@@ -1,6 +1,6 @@
 <?php
 
-class m130321_162710_create_table_salary extends CDbMigration
+class m130321_173935_create_table_salary extends CDbMigration
 {
 
     public function safeUp()

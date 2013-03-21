@@ -1,6 +1,6 @@
 <?php
 
-class DayController extends Controller
+class SalaryController extends Controller
 {
 
     public function actionIndex()
