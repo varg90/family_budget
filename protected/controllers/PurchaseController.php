@@ -3,34 +3,7 @@
 class PurchaseController extends Controller
 {
 
-    /**
-     * Declares class-based actions.
-     */
-    public function actions()
-    {
-        return array(
-            // captcha action renders the CAPTCHA image displayed on the contact page
-            'captcha' => array(
-                'class' => 'CCaptchaAction',
-                'backColor' => 0xFFFFFF,
-            ),
-            // page action renders "static" pages stored under 'protected/views/site/pages'
-            // They can be accessed via: index.php?r=site/page&view=FileName
-            'page' => array(
-                'class' => 'CViewAction',
-            ),
-        );
-    }
-
-    public function actionIndex()
-    {
-        $days = Day::model()->findAll();
-        $this->render('index', [
-            'daysSummaries' => $days,
-        ]);
-    }
-
-    public function actionAddPurchase()
+    public function actionCreate()
     {
         $purchase = new Purchase;
         if (!empty($_POST['Purchase'])) {
@@ -43,15 +16,15 @@ class PurchaseController extends Controller
             } catch (Exception $e) {
                 Yii::app()->user->setFlash('error', 'Произошла ошибка при сохранении' . $e->getMessage());
             }
-            $this->redirect($this->createUrl('site/index'));
+            $this->redirect($this->createUrl('day/index'));
         } else {
-            $this->render('add_record', [
+            $this->render('create', [
                 'purchase' => $purchase,
             ]);
         }
     }
 
-    public function actionDeletePurchase($id)
+    public function actionDelete($id)
     {
         $purchase = Purchase::model()->findByPk($id);
         try {

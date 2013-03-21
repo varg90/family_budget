@@ -11,7 +11,7 @@ $this->pageTitle = Yii::app()->name;
     ?></h1>
 <?php
 $this->widget('bootstrap.widgets.TbGridView', [
-    'dataProvider' => new CArrayDataProvider($daysSummaries, [
+    'dataProvider' => new CArrayDataProvider($days, [
         'sort' => array(
             'defaultOrder' => 'date ASC',
         )
