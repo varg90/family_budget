@@ -3,6 +3,8 @@
 class PurchaseController extends Controller
 {
 
+    public $defaultAction = 'create';
+
     public function actionCreate()
     {
         $purchase = new Purchase;
