@@ -18,9 +18,8 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
     ?>
 </div>
 <?php
-echo $form->textAreaRow($purchase, 'name');
+echo $form->dropDownListRow($purchase, 'category', $purchase->purchases);
 echo $form->textFieldRow($purchase, 'cost');
-echo $form->dropDownListRow($purchase, 'category', $this->getCategoriesArray());
 $this->widget('bootstrap.widgets.TbButton', [
     'buttonType' => TbButton::BUTTON_SUBMIT,
     'type' => TbButton::TYPE_PRIMARY,

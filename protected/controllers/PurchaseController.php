@@ -1,11 +1,13 @@
 <?php
 
-class PurchaseController extends Controller {
+class PurchaseController extends Controller
+{
 
     /**
      * Declares class-based actions.
      */
-    public function actions() {
+    public function actions()
+    {
         return array(
             // captcha action renders the CAPTCHA image displayed on the contact page
             'captcha' => array(
@@ -20,14 +22,16 @@ class PurchaseController extends Controller {
         );
     }
 
-    public function actionIndex() {
-        $daysSummaries = DaySummary::model()->findAll();
+    public function actionIndex()
+    {
+        $days = Day::model()->findAll();
         $this->render('index', [
-            'daysSummaries' => $daysSummaries,
+            'daysSummaries' => $days,
         ]);
     }
 
-    public function actionAddPurchase() {
+    public function actionAddPurchase()
+    {
         $purchase = new Purchase;
         if (!empty($_POST['Purchase'])) {
             $purchase->attributes = $_POST['Purchase'];
@@ -47,7 +51,8 @@ class PurchaseController extends Controller {
         }
     }
 
-    public function actionDeletePurchase($id) {
+    public function actionDeletePurchase($id)
+    {
         $purchase = Purchase::model()->findByPk($id);
         try {
             if (!$purchase->delete()) {
@@ -58,24 +63,6 @@ class PurchaseController extends Controller {
             Yii::app()->user->setFlash('error', 'Произошла ошибка при удалении' . $e->getMessage());
         }
         $this->redirect($this->createUrl('site/index'));
-    }
-
-    public function getCategoriesArray() {
-        return [
-            'product' => 'Продукты',
-            'petrol' => 'Бензин',
-            'med' => 'Медицина',
-            'phone' => 'Телефон',
-            'bus' => 'Автобус',
-        ];
-    }
-
-    public function getSumCostByPurchases($purchases) {
-        $sumCost = 0;
-        foreach ($purchases as $purchase) {
-            $sumCost += $purchase->cost;
-        }
-        return $sumCost;
     }
 
 }
