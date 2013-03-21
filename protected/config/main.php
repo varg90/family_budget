@@ -37,6 +37,8 @@ return array(
             ),
         ),
         'db' => array(
+            'enableProfiling' => true,
+            'enableParamLogging' => true,
             'connectionString' => 'mysql:host=localhost;dbname=family_budget',
             'emulatePrepare' => true,
             'username' => 'root',
@@ -54,10 +56,15 @@ return array(
                     'class' => 'CFileLogRoute',
                     'levels' => 'error, warning',
                 ),
-            // uncomment the following to show log messages on web pages
-//                array(
-//                    'class' => 'CWebLogRoute',
-//                ),
+                array(
+                    'class' => 'CFileLogRoute',
+                    'levels' => 'error, warning',
+                ),
+                array(
+                    'class' => 'CProfileLogRoute',
+                    'levels' => 'profile',
+                    'enabled' => true,
+                ),
             ),
         ),
         'bootstrap' => array(
