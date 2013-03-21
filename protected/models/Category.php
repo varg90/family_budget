@@ -1,24 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "purchase".
+ * This is the model class for table "category".
  *
- * The followings are the available columns in table 'purchase':
+ * The followings are the available columns in table 'category':
  * @property integer $id
- * @property string $date
  * @property string $name
- * @property integer $category_id
- * @property double $cost
  *
  * The followings are the available model relations:
- * @property Category $category
+ * @property Purchase[] $purchases
  */
-class Purchase extends CActiveRecord
+class Category extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Purchase the static model class
+	 * @return Category the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -30,7 +27,7 @@ class Purchase extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'purchase';
+		return 'category';
 	}
 
 	/**
@@ -42,13 +39,10 @@ class Purchase extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name', 'required'),
-			array('category_id', 'numerical', 'integerOnly'=>true),
-			array('cost', 'numerical'),
 			array('name', 'length', 'max'=>255),
-			array('date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, date, name, category_id, cost', 'safe', 'on'=>'search'),
+			array('id, name', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,7 +54,7 @@ class Purchase extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'category' => array(self::BELONGS_TO, 'Category', 'category_id'),
+			'purchases' => array(self::HAS_MANY, 'Purchase', 'category_id'),
 		);
 	}
 
@@ -71,10 +65,7 @@ class Purchase extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'date' => 'Date',
 			'name' => 'Name',
-			'category_id' => 'Category',
-			'cost' => 'Cost',
 		);
 	}
 
@@ -90,10 +81,7 @@ class Purchase extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('date',$this->date,true);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('category_id',$this->category_id);
-		$criteria->compare('cost',$this->cost);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
