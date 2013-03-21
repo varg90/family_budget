@@ -71,10 +71,10 @@ class Purchase extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'date' => 'Date',
-			'name' => 'Name',
-			'category_id' => 'Category',
-			'cost' => 'Cost',
+			'date' => 'Дата',
+			'name' => 'Наименование',
+			'category_id' => 'Категория',
+			'cost' => 'Стоимость',
 		);
 	}
 
