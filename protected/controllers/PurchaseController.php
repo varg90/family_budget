@@ -1,12 +1,28 @@
 <?php
 
-class PurchaseController extends Controller
-{
+class PurchaseController extends Controller {
 
-    public $defaultAction = 'create';
+    public $defaultAction = 'list';
 
-    public function actionCreate()
-    {
+    public function actionList() {
+        $purchases = Purchase::model()->search();
+        $todaysDate = date('Y-m-d');
+        $purchasesDataProvider = new CActiveDataProvider($purchases, [
+            'criteria' => [
+                'condition' => 'date = :date',
+                'params' => [
+                    ':date' => $todaysDate,
+                ],
+                'order' => 'name DESC',
+                'limit' => 5,
+            ],
+        ]);
+        $this->render('list', [
+            'purchasesDataProvider' => $purchasesDataProvider,
+        ]);
+    }
+
+    public function actionCreate() {
         $purchase = new Purchase;
         if (!empty($_POST['Purchase'])) {
             $purchase->attributes = $_POST['Purchase'];
@@ -26,8 +42,7 @@ class PurchaseController extends Controller
         }
     }
 
-    public function actionDelete($id)
-    {
+    public function actionDelete($id) {
         $purchase = Purchase::model()->findByPk($id);
         try {
             if (!$purchase->delete()) {
