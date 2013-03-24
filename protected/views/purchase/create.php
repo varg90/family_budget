@@ -26,7 +26,9 @@
     </div>
     <?php
     echo $form->textFieldRow($purchase, 'name');
-    echo $form->dropDownListRow($purchase, 'category', CategoryHelper::categoriesArray());
+    echo $form->dropDownListRow($purchase, 'category', CHtml::listData(
+                    Category::model()->findAll(), 'id', 'name'
+    ));
     echo $form->textFieldRow($purchase, 'cost');
     ?>
     <div class="form-actions">
