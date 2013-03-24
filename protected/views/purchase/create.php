@@ -5,24 +5,27 @@
         'type' => TbActiveForm::TYPE_HORIZONTAL,
     ]);
     ?>
-    <div class="row">
-        <?php
-        echo $form->label($purchase, 'date', [
-            'style' => 'margin-left: 130px;'
-        ]);
-        $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-            'model' => $purchase,
-            'attribute' => 'date',
-            'options' => array(
-                'showAnim' => 'fold',
-                'dateFormat' => 'yy-mm-dd',
-            ),
-            'htmlOptions' => array(
-                'style' => 'margin-bottom:20px; margin-left: 180px;',
-                'value' => date('Y-m-d'),
-            ),
-        ));
-        ?>
+    <div class="control-group ">
+        <label class="control-label" for="Purchase_date">
+            <?php
+            echo $form->label($purchase, 'date');
+            ?>
+        </label>
+        <div class="controls">
+            <?php
+            $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model' => $purchase,
+                'attribute' => 'date',
+                'options' => array(
+                    'showAnim' => 'fold',
+                    'dateFormat' => 'yy-mm-dd',
+                ),
+                'htmlOptions' => array(
+                    'value' => date('Y-m-d'),
+                ),
+            ));
+            ?>
+        </div>
     </div>
     <?php
     echo $form->textFieldRow($purchase, 'name');
