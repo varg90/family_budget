@@ -5,6 +5,12 @@ $this->widget('bootstrap.widgets.TbGridView', [
     'columns' => [
         'date',
         'name',
+        [
+            'name' => 'category',
+            'value' => function($purchase) {
+                return $purchase->category_id;
+            },
+        ],
         'cost',
     ],
 ]);

@@ -33,7 +33,7 @@
             <?php
             $this->widget('bootstrap.widgets.TbButton', [
                 'label' => 'Зарплата',
-                'url' => '#',
+                'url' => Yii::app()->createUrl('/salary/create'),
                 'size' => TbButton::SIZE_LARGE,
                 'type' => TbButton::TYPE_INFO,
                 'icon' => 'icon-plus icon-white',

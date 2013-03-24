@@ -1,11 +1,11 @@
-<div class="form" style="margin-left: 300px; margin-right: 300px">
+<div class="form center" style="margin-left: 300px; margin-right: 300px">
     <?php
     /* @var $form TbActiveForm */
     $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
         'type' => TbActiveForm::TYPE_HORIZONTAL,
     ]);
     ?>
-    <div class="control-group ">
+    <div class="control-group">
         <?php
         echo $form->label($purchase, 'date', [
             'class' => 'control-label',
@@ -26,14 +26,14 @@
             ));
             ?>
         </div>
-        <?php
-        echo $form->textFieldRow($purchase, 'name');
-        echo $form->dropDownListRow($purchase, 'category', CHtml::listData(
-                        Category::model()->findAll(), 'id', 'name'
-        ));
-        echo $form->textFieldRow($purchase, 'cost');
-        ?>
     </div>
+    <?php
+    echo $form->textFieldRow($purchase, 'name');
+    echo $form->dropDownListRow($purchase, 'category_id', CHtml::listData(
+                    Category::model()->findAll(), 'id', 'name'
+    ));
+    echo $form->textFieldRow($purchase, 'cost');
+    ?>
 </div>
 <div class="form-actions">
     <?php

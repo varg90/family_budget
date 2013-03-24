@@ -1,11 +1,14 @@
 <?php
 
-class PurchaseController extends Controller {
+class PurchaseController extends Controller
+{
 
     public $defaultAction = 'listForToday';
 
-    public function actionListForToday() {
+    public function actionListForToday()
+    {
         $todaysDate = date('Y-m-d');
+
         $criteria = new CDbCriteria();
         $criteria->condition = 'date = :date';
         $criteria->params = [
@@ -13,13 +16,16 @@ class PurchaseController extends Controller {
         ];
         $criteria->order = 'name DESC';
         $criteria->limit = 5;
+
         $purchasesDataProvider = Purchase::model()->search($criteria);
+
         $this->render('list', [
             'purchasesDataProvider' => $purchasesDataProvider,
         ]);
     }
 
-    public function actionCreate() {
+    public function actionCreate()
+    {
         $purchase = new Purchase;
         if (!empty($_POST['Purchase'])) {
             $purchase->attributes = $_POST['Purchase'];
@@ -39,7 +45,8 @@ class PurchaseController extends Controller {
         }
     }
 
-    public function actionDelete($id) {
+    public function actionDelete($id)
+    {
         $purchase = Purchase::model()->findByPk($id);
         try {
             if (!$purchase->delete()) {

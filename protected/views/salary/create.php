@@ -1,65 +1,45 @@
-<?php
-/* @var $this PurchaseController */
-
-$this->pageTitle = Yii::app()->name;
-?>
-<h1>Потрачено за 
-    <?php echo 'month_will_be_here';
-    ?>: 
+<div class="form" style="margin-left: 300px; margin-right: 300px">
     <?php
-    // echo $this->getSumCostByPurchases($purchases); 
-    ?></h1>
-<?php
-$this->widget('bootstrap.widgets.TbGridView', [
-    'dataProvider' => new CArrayDataProvider($days, [
-        'sort' => array(
-            'defaultOrder' => 'date ASC',
-        )
-            ]),
-    'ajaxUpdate' => true,
-    'columns' => [
-        [
-            'name' => 'Дата',
-            'value' => function($data) {
-                return date_parse($data->date)['day'];
-            },
+    /* @var $form TbActiveForm */
+    $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
+        'type' => TbActiveForm::TYPE_HORIZONTAL,
+    ]);
+    ?>
+    <div class="control-group ">
+        <?php
+        echo $form->label($salary, 'date', [
+            'class' => 'control-label',
+        ]);
+        ?>
+        <div class="controls">
+            <?php
+            $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model' => $salary,
+                'attribute' => 'date',
+                'options' => [
+                    'showAnim' => 'fold',
+                    'dateFormat' => 'yy-mm-dd',
+                ],
+                'htmlOptions' => [
+                    'value' => date('Y-m-d'),
+                ],
+            ));
+            ?>
+        </div>
+        <?php echo $form->textFieldRow($salary, 'value'); ?>
+    </div>
+</div>
+<div class="form-actions">
+    <?php
+    $this->widget('bootstrap.widgets.TbButton', [
+        'buttonType' => TbButton::BUTTON_SUBMIT,
+        'type' => TbButton::TYPE_PRIMARY,
+        'size' => TbButton::SIZE_LARGE,
+        'label' => "Сохранить",
+        'htmlOptions' => [
+            'style' => 'margin-left: 450px;',
         ],
-        [
-            'name' => 'Потрачено',
-            'value' => function($data) {
-                return $data->sum_spend;
-            },
-        ],
-        [
-            'name' => 'Просмотр',
-            'value' => function($data) {
-                $this->widget('bootstrap.widgets.TbButton', [
-                    'label' => 'Детали',
-                    'type' => TbButton::TYPE_PRIMARY,
-                    'url' => $this->createUrl('/site/showDayDetails', [
-                        'id' => $data->id
-                    ]),
-                    'htmlOptions' => [
-                        'class' => 'pull-right',
-                    ],
-                ]);
-            },
-        ],
-        [
-            'name' => 'Добавить',
-            'value' => function($data) {
-                $this->widget('bootstrap.widgets.TbButton', [
-                    'label' => 'Новый товар',
-                    'type' => TbButton::TYPE_SUCCESS,
-                    'url' => $this->createUrl('/site/addPurchase', [
-                        'id' => $data->id
-                    ]),
-                    'htmlOptions' => [
-                        'class' => 'pull-right',
-                    ],
-                ]);
-            },
-        ],
-    ]
-]);
-?>
+    ]);
+    ?>
+</div>
+<?php $this->endWidget(); ?>
