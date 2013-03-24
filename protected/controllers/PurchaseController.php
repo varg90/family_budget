@@ -2,21 +2,18 @@
 
 class PurchaseController extends Controller {
 
-    public $defaultAction = 'list';
+    public $defaultAction = 'listForToday';
 
-    public function actionList() {
-        $purchases = Purchase::model()->search();
+    public function actionListForToday() {
         $todaysDate = date('Y-m-d');
-        $purchasesDataProvider = new CActiveDataProvider($purchases, [
-            'criteria' => [
-                'condition' => 'date = :date',
-                'params' => [
-                    ':date' => $todaysDate,
-                ],
-                'order' => 'name DESC',
-                'limit' => 5,
-            ],
-        ]);
+        $criteria = new CDbCriteria();
+        $criteria->condition = 'date = :date';
+        $criteria->params = [
+            ':date' => $todaysDate,
+        ];
+        $criteria->order = 'name DESC';
+        $criteria->limit = 5;
+        $purchasesDataProvider = Purchase::model()->search($criteria);
         $this->render('list', [
             'purchasesDataProvider' => $purchasesDataProvider,
         ]);

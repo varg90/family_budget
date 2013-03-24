@@ -33,7 +33,7 @@
                             <?php
                             $this->widget('bootstrap.widgets.TbButton', [
                                 'label' => 'Новая затрата',
-                                'url' => '#',
+                                'url' => Yii::app()->createUrl('/purchase/create'),
                                 'size' => TbButton::SIZE_LARGE,
                                 'type' => TbButton::TYPE_INFO,
                                 'icon' => 'icon-shopping-cart icon-white',

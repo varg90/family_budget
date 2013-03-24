@@ -94,6 +94,7 @@ class Purchase extends CActiveRecord
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('category_id',$this->category_id);
 		$criteria->compare('cost',$this->cost);
+                $criteria->with = 'category';
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

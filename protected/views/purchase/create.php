@@ -25,6 +25,7 @@
     </div>
     <?php
     echo $form->textFieldRow($purchase, 'name');
+    echo $form->dropDownListRow($purchase, 'category', $purchase->category);
     echo $form->textFieldRow($purchase, 'cost');
     ?>
     <div class="form-actions">

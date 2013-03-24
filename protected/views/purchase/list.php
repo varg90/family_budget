@@ -2,9 +2,9 @@
 
 $this->widget('bootstrap.widgets.TbGridView', [
     'dataProvider' => $purchasesDataProvider,
-//    'columns' => [
-//        'date',
-//        'name',
-//        'cost',
-//    ],
+    'columns' => [
+        'date',
+        'name',
+        'cost',
+    ],
 ]);
