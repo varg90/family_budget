@@ -41,7 +41,7 @@ class Purchase extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name', 'required'),
+			array('name, cost', 'required'),
 			array('category_id', 'numerical', 'integerOnly'=>true),
 			array('cost', 'numerical'),
 			array('name', 'length', 'max'=>255),
