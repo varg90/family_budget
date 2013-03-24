@@ -1,6 +1,6 @@
 <?php
 
-Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../../vendor/crisu83/yii-bootstrap');
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Семейный бюджет',
