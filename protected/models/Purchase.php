@@ -73,7 +73,8 @@ class Purchase extends CActiveRecord
 			'id' => 'ID',
 			'date' => 'Дата',
 			'name' => 'Наименование',
-			'category_id' => 'Категория',
+//			'category_id' => 'Категория',
+			'category' => 'Категория',
 			'cost' => 'Стоимость',
 		);
 	}

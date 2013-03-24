@@ -31,7 +31,7 @@ class PurchaseController extends Controller {
             } catch (Exception $e) {
                 Yii::app()->user->setFlash('error', 'Произошла ошибка при сохранении' . $e->getMessage());
             }
-            $this->redirect($this->createUrl('day/index'));
+            $this->redirect($this->createUrl('/'));
         } else {
             $this->render('create', [
                 'purchase' => $purchase,

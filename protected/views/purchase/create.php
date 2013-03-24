@@ -3,7 +3,7 @@
     /* @var $form TbActiveForm */
     $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
         'type' => TbActiveForm::TYPE_HORIZONTAL,
-            ]);
+    ]);
     ?>
     <div class="row">
         <?php
@@ -18,14 +18,15 @@
                 'dateFormat' => 'yy-mm-dd',
             ),
             'htmlOptions' => array(
-                'style' => 'margin-bottom:20px; margin-left: 180px;'
+                'style' => 'margin-bottom:20px; margin-left: 180px;',
+                'value' => date('Y-m-d'),
             ),
         ));
         ?>
     </div>
     <?php
     echo $form->textFieldRow($purchase, 'name');
-    echo $form->dropDownListRow($purchase, 'category', $purchase->category);
+    echo $form->dropDownListRow($purchase, 'category', CategoryHelper::categoriesArray());
     echo $form->textFieldRow($purchase, 'cost');
     ?>
     <div class="form-actions">
