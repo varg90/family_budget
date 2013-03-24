@@ -1,0 +1,39 @@
+{
+    "hash": "9ad095a04ccd0d2d242cb5840f361c91",
+    "packages": [
+        {
+            "name": "yiisoft/yii",
+            "version": "1.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "e9e4a0d5be901d8bd48e516a2d9afe33d6fd05a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii/zipball/1.1.13",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "description": "Yii PHP Framework",
+            "homepage": "https://github.com/yiisoft/yii"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": [
+
+    ]
+}
