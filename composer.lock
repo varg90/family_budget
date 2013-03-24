@@ -1,6 +1,24 @@
 {
-    "hash": "9ad095a04ccd0d2d242cb5840f361c91",
+    "hash": "c3017549e9c6b951378ca8118454340e",
     "packages": [
+        {
+            "name": "crisu83/yii-bootstrap",
+            "version": "2.0.3",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/Crisu83/yii-bootstrap",
+                "reference": "64e2df84cca39a1759235327acea7bcd7c35c00b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/Crisu83/yii-bootstrap/get/64e2df84cc.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "Bootstrap is an extension for the Yii PHP framework that provides a wide range of server-side widgets that allow you to easily use Twitter's Bootstrap together with Yii.",
+            "homepage": "http://www.cniska.net/yii-bootstrap"
+        },
         {
             "name": "yiisoft/yii",
             "version": "1.1.13",
