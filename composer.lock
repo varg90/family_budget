@@ -1,0 +1,57 @@
+{
+    "hash": "c3017549e9c6b951378ca8118454340e",
+    "packages": [
+        {
+            "name": "crisu83/yii-bootstrap",
+            "version": "2.0.3",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/Crisu83/yii-bootstrap",
+                "reference": "64e2df84cca39a1759235327acea7bcd7c35c00b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/Crisu83/yii-bootstrap/get/64e2df84cc.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "Bootstrap is an extension for the Yii PHP framework that provides a wide range of server-side widgets that allow you to easily use Twitter's Bootstrap together with Yii.",
+            "homepage": "http://www.cniska.net/yii-bootstrap"
+        },
+        {
+            "name": "yiisoft/yii",
+            "version": "1.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "e9e4a0d5be901d8bd48e516a2d9afe33d6fd05a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii/zipball/1.1.13",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "description": "Yii PHP Framework",
+            "homepage": "https://github.com/yiisoft/yii"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": [
+
+    ]
+}
