@@ -3,7 +3,26 @@
 class PurchaseController extends Controller
 {
 
-    public $defaultAction = 'create';
+    public $defaultAction = 'listForToday';
+
+    public function actionListForToday()
+    {
+        $todaysDate = date('Y-m-d');
+
+        $criteria = new CDbCriteria();
+        $criteria->condition = 'date = :date';
+        $criteria->params = [
+            ':date' => $todaysDate,
+        ];
+        $criteria->order = 'name DESC';
+        $criteria->limit = 5;
+
+        $purchasesDataProvider = Purchase::model()->search($criteria);
+
+        $this->render('list', [
+            'purchasesDataProvider' => $purchasesDataProvider,
+        ]);
+    }
 
     public function actionCreate()
     {
@@ -18,7 +37,7 @@ class PurchaseController extends Controller
             } catch (Exception $e) {
                 Yii::app()->user->setFlash('error', 'Произошла ошибка при сохранении' . $e->getMessage());
             }
-            $this->redirect($this->createUrl('day/index'));
+            $this->redirect($this->createUrl('/'));
         } else {
             $this->render('create', [
                 'purchase' => $purchase,

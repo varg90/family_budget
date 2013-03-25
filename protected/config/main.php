@@ -1,6 +1,6 @@
 <?php
 
-Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../../vendor/crisu83/yii-bootstrap');
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Семейный бюджет',
@@ -11,7 +11,8 @@ return array(
     'import' => array(
         'application.models.*',
         'application.components.*',
-        'bootstrap.widgets.*'
+        'bootstrap.widgets.*',
+        'application.helpers.*',
     ),
     'modules' => array(
         // uncomment the following to enable the Gii tool

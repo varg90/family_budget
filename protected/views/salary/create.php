@@ -1,20 +1,20 @@
-<div class="form center" style="margin-left: 300px; margin-right: 300px">
+<div class="form" style="margin-left: 300px; margin-right: 300px">
     <?php
     /* @var $form TbActiveForm */
     $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
         'type' => TbActiveForm::TYPE_HORIZONTAL,
     ]);
     ?>
-    <div class="control-group">
+    <div class="control-group ">
         <?php
-        echo $form->label($purchase, 'date', [
+        echo $form->label($salary, 'date', [
             'class' => 'control-label',
         ]);
         ?>
         <div class="controls">
             <?php
             $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-                'model' => $purchase,
+                'model' => $salary,
                 'attribute' => 'date',
                 'options' => [
                     'showAnim' => 'fold',
@@ -26,14 +26,8 @@
             ));
             ?>
         </div>
+        <?php echo $form->textFieldRow($salary, 'value'); ?>
     </div>
-    <?php
-    echo $form->textFieldRow($purchase, 'name');
-    echo $form->dropDownListRow($purchase, 'category_id', CHtml::listData(
-                    Category::model()->findAll(), 'id', 'name'
-    ));
-    echo $form->textFieldRow($purchase, 'cost');
-    ?>
 </div>
 <div class="form-actions">
     <?php

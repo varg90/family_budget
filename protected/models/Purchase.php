@@ -41,7 +41,7 @@ class Purchase extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name', 'required'),
+			array('name, cost', 'required'),
 			array('category_id', 'numerical', 'integerOnly'=>true),
 			array('cost', 'numerical'),
 			array('name', 'length', 'max'=>255),
@@ -73,7 +73,8 @@ class Purchase extends CActiveRecord
 			'id' => 'ID',
 			'date' => 'Дата',
 			'name' => 'Наименование',
-			'category_id' => 'Категория',
+//			'category_id' => 'Категория',
+			'category' => 'Категория',
 			'cost' => 'Стоимость',
 		);
 	}
@@ -94,6 +95,7 @@ class Purchase extends CActiveRecord
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('category_id',$this->category_id);
 		$criteria->compare('cost',$this->cost);
+                $criteria->with = 'category';
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
