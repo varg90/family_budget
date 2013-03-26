@@ -22,7 +22,7 @@
             <?php
             $this->widget('bootstrap.widgets.TbButton', [
                 'label' => Yii::t('view','labels.statistic'),
-                'url' => '#',
+                'url' => Yii::app()->createUrl('/statistic/index'),
                 'size' => TbButton::SIZE_LARGE,
                 'type' => TbButton::TYPE_INFO,
                 'icon' => 'icon-th-list icon-white',
