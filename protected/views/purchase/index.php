@@ -6,9 +6,9 @@ $this->widget('bootstrap.widgets.TbGridView', [
         'date',
         'name',
         [
-            'name' => 'category',
+            'name' => 'category_id',
             'value' => function($purchase) {
-                return $purchase->category_id;
+                return $purchase->category->name;
             },
         ],
         'cost',
