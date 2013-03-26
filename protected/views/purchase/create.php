@@ -3,7 +3,7 @@
     /* @var $form TbActiveForm */
     $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
         'type' => TbActiveForm::TYPE_HORIZONTAL,
-    ]);
+            ]);
     ?>
     <div class="control-group">
         <?php
@@ -22,18 +22,18 @@
                 ],
                 'htmlOptions' => [
                     'value' => date('Y-m-d'),
-                ],
+                    ],
             ));
             ?>
         </div>
     </div>
-    <?php
-    echo $form->textFieldRow($purchase, 'name');
-    echo $form->dropDownListRow($purchase, 'category_id', CHtml::listData(
+    <?= $form->textFieldRow($purchase, 'name'); ?>
+    <?=
+    $form->dropDownListRow($purchase, 'category_id', CHtml::listData(
                     Category::model()->findAll(), 'id', 'name'
-    ));
-    echo $form->textFieldRow($purchase, 'cost');
+            ));
     ?>
+    <?= $form->textFieldRow($purchase, 'cost'); ?>
 </div>
 <div class="form-actions">
     <?php
@@ -44,7 +44,7 @@
         'label' => "Сохранить",
         'htmlOptions' => [
             'style' => 'margin-left: 450px;',
-        ],
+            ],
     ]);
     ?>
 </div>

@@ -3,9 +3,7 @@
 class PurchaseController extends Controller
 {
 
-    public $defaultAction = 'listForToday';
-
-    public function actionListForToday()
+    public function actionIndex()
     {
         $todaysDate = date('Y-m-d');
 
@@ -19,7 +17,7 @@ class PurchaseController extends Controller
 
         $purchasesDataProvider = Purchase::model()->search($criteria);
 
-        $this->render('list', [
+        $this->render('index', [
             'purchasesDataProvider' => $purchasesDataProvider,
         ]);
     }
