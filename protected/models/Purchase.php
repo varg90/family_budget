@@ -71,10 +71,10 @@ class Purchase extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'date' => 'Дата',
-			'name' => 'Наименование',
-			'category_id' => 'Категория',
-			'cost' => 'Стоимость',
+			'date' => Yii::t('model','purchase.date'),
+			'name' => Yii::t('model','purchase.name'),
+			'category_id' => Yii::t('model','purchase.category_id'),
+			'cost' => Yii::t('model','purchase.cost'),
 		);
 	}
 

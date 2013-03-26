@@ -62,8 +62,8 @@ class Salary extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'date' => 'Дата',
-			'value' => 'Величина',
+			'date' => Yii::t('model','salary.date'),
+			'value' => Yii::t('model','salary.value'),
 		);
 	}
 

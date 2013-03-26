@@ -72,4 +72,6 @@ return array(
             'class' => 'bootstrap.components.Bootstrap',
         ),
     ),
+    'sourceLanguage' => '00',
+    'language' => 'ru',
 );

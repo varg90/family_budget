@@ -1,11 +1,11 @@
-<div class="form" style="margin-left: 300px; margin-right: 300px">
+<div class="form center" style="margin-left: 300px; margin-right: 300px">
     <?php
     /* @var $form TbActiveForm */
     $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
         'type' => TbActiveForm::TYPE_HORIZONTAL,
-    ]);
+            ]);
     ?>
-    <div class="control-group ">
+    <div class="control-group">
         <?php
         echo $form->label($salary, 'date', [
             'class' => 'control-label',
@@ -22,12 +22,12 @@
                 ],
                 'htmlOptions' => [
                     'value' => date('Y-m-d'),
-                ],
+                    ],
             ));
             ?>
         </div>
-        <?php echo $form->textFieldRow($salary, 'value'); ?>
     </div>
+    <?= $form->textFieldRow($salary, 'value'); ?>
 </div>
 <div class="form-actions">
     <?php
@@ -35,10 +35,10 @@
         'buttonType' => TbButton::BUTTON_SUBMIT,
         'type' => TbButton::TYPE_PRIMARY,
         'size' => TbButton::SIZE_LARGE,
-        'label' => "Сохранить",
+        'label' => Yii::t('view', 'labels.save'),
         'htmlOptions' => [
             'style' => 'margin-left: 450px;',
-        ],
+            ],
     ]);
     ?>
 </div>

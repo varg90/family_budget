@@ -41,7 +41,7 @@
         'buttonType' => TbButton::BUTTON_SUBMIT,
         'type' => TbButton::TYPE_PRIMARY,
         'size' => TbButton::SIZE_LARGE,
-        'label' => "Сохранить",
+        'label' => Yii::t('view','labels.save'),
         'htmlOptions' => [
             'style' => 'margin-left: 450px;',
             ],
