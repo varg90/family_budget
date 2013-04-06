@@ -1,4 +1,4 @@
-<div class="form center" style="margin-left: 300px; margin-right: 300px">
+<div class="form center">
     <?php
     /* @var $form TbActiveForm */
     $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', [
