@@ -1,0 +1,28 @@
+/* 
+    Document   : myStyles
+    Created on : 06.04.2013, 13:18:36
+    Author     : varg
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.button-width100
+{
+    width: 100px;
+}
+
+.button-width160
+{
+    width: 160px;
+}
+
+div.appname
+{
+    margin-left: 50px;
+}
+
+div.center
+{
+     margin-left: 300px; 
+     margin-right: 300px;
+}
