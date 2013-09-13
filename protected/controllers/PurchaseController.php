@@ -31,9 +31,10 @@ class PurchaseController extends Controller
                 if (!$purchase->save()) {
                     throw new Exception(CVarDumper::dump($purchase->getErrors()));
                 };
-                Yii::app()->user->setFlash('success', 'Новая запись успешно добавлена!');
+                Yii::app()->user->setFlash('success', Yii::t('messages','entity.added'));
+                $this->redirect('index');
             } catch (Exception $e) {
-                Yii::app()->user->setFlash('error', 'Произошла ошибка при сохранении' . $e->getMessage());
+                Yii::app()->user->setFlash('error', Yii::t('messages','error.save') . $e->getMessage());
             }
             $this->redirect($this->createUrl('/'));
         } else {
@@ -50,9 +51,9 @@ class PurchaseController extends Controller
             if (!$purchase->delete()) {
                 throw new Exception(CVarDumper::dump($purchase->getErrors()));
             }
-            Yii::app()->user->setFlash('success', 'Новая запись успешно добавлена!');
+            Yii::app()->user->setFlash('success', Yii::t('messages','entity.deleted'));
         } catch (Exception $e) {
-            Yii::app()->user->setFlash('error', 'Произошла ошибка при удалении' . $e->getMessage());
+            Yii::app()->user->setFlash('error', Yii::t('messages','error.delete') . $e->getMessage());
         }
         $this->redirect($this->createUrl('site/index'));
     }
