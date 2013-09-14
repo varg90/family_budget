@@ -7,14 +7,14 @@
     ?>
     <div class="control-group">
         <?php
-        echo $form->label($purchase, 'date', [
+        echo $form->label($entity, 'date', [
             'class' => 'control-label',
         ]);
         ?>
         <div class="controls">
             <?php
             $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-                'model' => $purchase,
+                'model' => $entity,
                 'attribute' => 'date',
                 'options' => [
                     'showAnim' => 'fold',
@@ -27,13 +27,13 @@
             ?>
         </div>
     </div>
-    <?= $form->textFieldRow($purchase, 'name'); ?>
+    <?= $form->textFieldRow($entity, 'name'); ?>
     <?=
-    $form->dropDownListRow($purchase, 'category_id', CHtml::listData(
+    $form->dropDownListRow($entity, 'category_id', CHtml::listData(
                     Category::model()->findAll(), 'id', 'name'
             ));
     ?>
-    <?= $form->textFieldRow($purchase, 'cost'); ?>
+    <?= $form->textFieldRow($entity, 'cost'); ?>
 </div>
 <div class="form-actions">
     <?php

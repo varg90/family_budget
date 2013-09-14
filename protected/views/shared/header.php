@@ -8,7 +8,7 @@
             <?php
             $this->widget('bootstrap.widgets.TbButton', [
                 'label' => Yii::t('view','labels.createPurchase'),
-                'url' => Yii::app()->createUrl('/purchase/create'),
+                'url' => Yii::app()->createUrl('/purchase/add'),
                 'size' => TbButton::SIZE_LARGE,
                 'type' => TbButton::TYPE_INFO,
                 'icon' => 'icon-shopping-cart icon-white',

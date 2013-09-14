@@ -1,5 +1,6 @@
 <?php
 return [
+    'are_you_sure?' => 'Вы уверены?',
     'entity.added' => 'Запись успешно добавлена',
     'entity.changed' => 'Запись успешно изменена',
     'entity.deleted' => 'Запись успешно удалена',

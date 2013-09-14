@@ -40,7 +40,7 @@ $this->widget('bootstrap.widgets.TbGridView', [
                     'type' => TbButton::TYPE_DANGER,
                     'icon' => 'icon-remove-sign icon-white',
                     'htmlOptions' => [
-                        'onclick' => 'js:bootbox.confirm("Are you sure?")',
+                        'onclick' => 'return confirm("' . Yii::t('messages', 'are_you_sure?') .'");',
                         'width' => 200,
                     ],
                 ]);

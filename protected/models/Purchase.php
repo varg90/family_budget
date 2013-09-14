@@ -42,8 +42,8 @@ class Purchase extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, cost', 'required'),
-			array('category_id', 'numerical', 'integerOnly'=>true),
-			array('cost', 'numerical'),
+			array('category_id', 'type', 'type' => 'numerical'),
+			array('cost', 'type', 'type'=>'float'),
 			array('name', 'length', 'max'=>255),
 			array('date', 'safe'),
 			// The following rule is used by search().
